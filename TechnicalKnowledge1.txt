@@ -1,0 +1,34 @@
+// Create a flowchart with the pseudocode when you apply opportunity in Talent Growth.
+
+
+START
+
+// Check if user is logged in to Google account
+IF (user is not logged in) THEN
+  // Prompt user to log in
+  PRINT "Please log in to your Google account to apply for this opportunity"
+  // Redirect user to login page
+  REDIRECT TO login page
+END IF
+
+// Check if application deadline has passed
+IF (application deadline has passed) THEN
+  // Display error message
+  PRINT "Sorry, the application deadline for this opportunity has passed"
+  // Stop the application process
+  END
+END IF
+
+// Go to Google Forms application page
+GO TO Google Forms application page
+
+// Fill out application form
+FILL OUT application form
+
+// Submit application
+SUBMIT application
+
+// Display confirmation message
+PRINT "Your application has been submitted successfully"
+
+END
